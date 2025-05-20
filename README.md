@@ -20,7 +20,7 @@ Sistema web en Laravel que, **antes de cualquier registro o login**, solicita la
 
 1. **Clona el repositorio**  
    ```bash
-   git clone https://tu-repositorio.git espe-salud
+   git clone https://github.com/DarwinValdiviezo/Middleware_SSeguro.git
    cd espe-salud
    ```
 
@@ -45,8 +45,8 @@ Sistema web en Laravel que, **antes de cualquier registro o login**, solicita la
      DB_HOST=127.0.0.1
      DB_PORT=3306
      DB_DATABASE=espe_salud
-     DB_USERNAME=tu_usuario
-     DB_PASSWORD=tu_contraseña
+     DB_USERNAME=root
+     DB_PASSWORD=
      ```
 
 5. **Genera la clave de aplicación**  
