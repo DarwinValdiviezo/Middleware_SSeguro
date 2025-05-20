@@ -1,0 +1,62 @@
+/* public/css/custom.css */
+
+/* Hero background suave */
+.hero-section {
+  background: #f5f8fa;
+  padding: 4rem 0;
+}
+
+/* Tarjeta central */
+.age-card {
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+}
+
+/* Cabecera de la tarjeta */
+.age-card .card-header {
+  background: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1.5rem;
+}
+
+/* Cuerpo de la tarjeta */
+.age-card .card-body {
+  padding: 2rem;
+}
+
+/* Campo de edad */
+#age {
+  font-size: 1.2rem;
+  padding: .75rem;
+  border-radius: .5rem;
+}
+
+/* Botón principal */
+.btn-age-submit {
+  background: #0056b3;
+  border: none;
+  padding: .75rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: .5rem;
+  transition: background .3s ease;
+}
+.btn-age-submit:hover {
+  background: #004494;
+}
+
+/* Texto de marca */
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+/* Ajustes responsivos: tarjeta más estrecha en móvil */
+@media (max-width: 576px) {
+  .age-card {
+    margin: 0 1rem;
+  }
+}
